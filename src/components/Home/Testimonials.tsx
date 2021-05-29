@@ -14,7 +14,7 @@ const Testimonials = () => {
               <StaticImage
                 width={300}
                 height={300}
-                src="../images/abhishek.webp"
+                src="../../images/abhishek.webp"
                 className="d-block w-100 testimonial-img"
                 alt="First slide"
               />
@@ -36,7 +36,7 @@ const Testimonials = () => {
               <StaticImage
                 width={300}
                 height={300}
-                src="../images/pranathi.webp"
+                src="../../images/pranathi.webp"
                 className="d-block w-100 testimonial-img"
                 alt="First slide"
               />
@@ -59,7 +59,7 @@ const Testimonials = () => {
               <StaticImage
                 width={300}
                 height={300}
-                src="../images/jagriti.webp"
+                src="../../images/jagriti.webp"
                 className="d-block w-100 testimonial-img"
                 alt="First slide"
               />
