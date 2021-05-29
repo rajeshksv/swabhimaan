@@ -1,0 +1,26 @@
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+body{
+  line-height: 2;
+}
+
+.darken-image{
+  // filter: brightness(40%)
+  // filter: invert(83%) sepia(48%) saturate(2297%) hue-rotate(337deg) brightness(94%) contrast(101%);
+  filter: sepia(50%) saturate(1237%) hue-rotate(337deg) brightness(100%) contrast(101%);
+}
+
+.testimonial-img{
+clip-path: ellipse(45% 45% at 50% 50%);
+}
+
+.fact-counter{
+  background: rgba(0,0,0,0.80);
+  padding: 80px 30px;
+  color: #fff;
+}
