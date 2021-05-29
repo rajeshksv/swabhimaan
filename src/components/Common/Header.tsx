@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg" className="p-2">
       <Navbar.Brand
-        href="/home"
+        href="/"
         className="mx-2 font-weight-bold"
         style={{ fontSize: "1.5em" }}
       >
@@ -14,11 +14,11 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link className="mx-3" href="/home">
+          <Nav.Link className="mx-3" href="/">
             Home
           </Nav.Link>
-          <Nav.Link className="mx-3" href="/programs">
-            Gallery
+          <Nav.Link className="mx-3" href="/education">
+            Education
           </Nav.Link>
           <Nav.Link className="mx-3" href="/programs">
             Timelines

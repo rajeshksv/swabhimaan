@@ -4,11 +4,84 @@ import Header from "../components/Common/Header";
 import Footer from "../components/Common/Footer";
 import ProgramPreview from "../components/Home/ProgramPreview";
 import Testimonials from "../components/Home/Testimonials";
-
 import { StaticImage } from "gatsby-plugin-image";
 
 import "../styles/index.scss";
 import Metrics from "../components/Home/Metrics";
+import Team from "../components/Home/Team";
+import Gallery from "../components/Home/Gallery";
+
+// const photos = [
+//   {
+//     src: "../images/collate1.webp",
+//     width: 4,
+//     height: 3,
+//   },
+//   {
+//     src: "../images/collate2.webp",
+//     width: 1,
+//     height: 1,
+//   },
+//   {
+//     src: "../images/collate3.webp",
+//     width: 3,
+//     height: 4,
+//   },
+//   {
+//     src: "../images/collate4.webp",
+//     width: 3,
+//     height: 4,
+//   },
+//   {
+//     src: "../images/collate5.webp",
+//     width: 3,
+//     height: 4,
+//   },
+//   {
+//     src: "../images/collate6.webp",
+//     width: 4,
+//     height: 3,
+//   },
+//   {
+//     src: "../images/collate7.webp",
+//     width: 3,
+//     height: 4,
+//   },
+//   {
+//     src: "../images/collate8.webp",
+//     width: 4,
+//     height: 3,
+//   },
+//   {
+//     src: "../images/collate9.webp",
+//     width: 4,
+//     height: 3,
+//   },
+// ];
+
+// const imageRenderer = ({
+//   index,
+//   photo,
+// }: {
+//   index: number;
+//   photo: {
+//     width: number;
+//     height: number;
+//     src: string;
+//   };
+// }) => {
+//   console.log({ photo }, photo.src);
+//   return (
+//     <StaticImage
+//       key={photo.src}
+//       width={photo.width}
+//       height={photo.height}
+//       src={photo.src}
+//       alt="collate1"
+//     />
+//   );
+// };
+
 // markup
 const IndexPage = () => {
   return (
@@ -66,8 +139,9 @@ const IndexPage = () => {
         <Container>
           <Testimonials />
         </Container>
-        <br />
-        {/* <GalleryPhotos /> */}
+        <Team />
+        <h3 className="my-5 text-center">Gallery</h3>
+        <Gallery />
         <Footer />
       </div>
     </div>
