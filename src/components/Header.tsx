@@ -3,9 +3,13 @@ import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg" className="p-3">
-      <Navbar.Brand href="/home" style={{ fontSize: "1.5em" }}>
-        Swabhimaan
+    <Navbar bg="light" expand="lg" className="p-2">
+      <Navbar.Brand
+        href="/home"
+        className="mx-2 font-weight-bold"
+        style={{ fontSize: "1.5em" }}
+      >
+        Swabhimaan.
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

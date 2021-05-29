@@ -6,13 +6,17 @@ $theme-colors: (
 @import "~bootstrap/scss/bootstrap";
 
 body{
+  font-family: 'Jost', sans-serif;
+}
+
+body{
   line-height: 2;
 }
 
 .darken-image{
   // filter: brightness(40%)
   // filter: invert(83%) sepia(48%) saturate(2297%) hue-rotate(337deg) brightness(94%) contrast(101%);
-  filter: sepia(50%) saturate(1237%) hue-rotate(337deg) brightness(100%) contrast(101%);
+  // filter: sepia(50%) saturate(1237%) hue-rotate(337deg) brightness(100%) contrast(101%);
 }
 
 .testimonial-img{
