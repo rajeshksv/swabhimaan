@@ -98,8 +98,11 @@ const IndexPage = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>
+                "The greatness of humanity is not in being human, but in being
+                humane"
+              </h3>
+              <p>Mahatma Gandhi</p>
               <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>
@@ -111,8 +114,11 @@ const IndexPage = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>
+                "Darkness cannot drive out darkness; only light can do that.
+                Hate cannot drive out hate; only love can do that."
+              </h3>
+              <p>Martin Luther King</p>
               <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>
@@ -124,10 +130,11 @@ const IndexPage = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>
+                "Service to others is the rent you pay for your room here on
+                earth"
+              </h3>
+              <p>Mohammad Ali</p>
               <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>

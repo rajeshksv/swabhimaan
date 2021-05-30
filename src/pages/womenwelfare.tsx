@@ -50,7 +50,7 @@ const WomenWelfare = () => {
       <Header />
       <StaticImage
         height={600}
-        src="../images/school_kids.webp"
+        src="../images/women.webp"
         className="d-block w-100 "
         alt="First slide"
       />

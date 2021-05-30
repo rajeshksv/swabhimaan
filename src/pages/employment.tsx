@@ -8,32 +8,36 @@ import Impact from "../components/Common/Impact";
 import HighlightsTemplate from "../components/Common/HighlightsTemplate";
 import {
   GiOpenBook,
-  AiOutlineSmile,
-  AiOutlineHeart,
+  MdTimeline,
+  GiClothes,
   FaRegHandPaper,
 } from "react-icons/all";
 import "../styles/index.scss";
 
 const highlights = [
-  "Started in 2002",
-  "Adopted 4 schools in the community covering over 250 students per year",
-  "Running since 20 years, many have graduated and now becoming role models,leaders for younger generation",
-  "Teacher training via TFI 20 teachers teach per year.",
-  "Providing breakfast and lunch for 60 students Tution training for 8th, 9th, 10th class students",
+  "Running since 7-8 years. 200+ women got benefited",
+  "Gets cloth from TN and stitch and sell to super markets",
+  "25 women stitch cloths",
+  "8 Physicallly challenged youth",
 ];
 
 const metrics = [
-  { text: "Donations Made", value: 1234, Icon: GiOpenBook, color: "#f06626" },
+  { 
+    text: "Benefited Women", 
+    value: 200, 
+    Icon: GiOpenBook, 
+    color: "#f06626" 
+  },
   {
-    text: "Happy Children",
-    value: 54125,
-    Icon: AiOutlineSmile,
+    text: "Running since years",
+    value: 8,
+    Icon: MdTimeline,
     color: "#bf271a",
   },
   {
-    text: "Volunteering Helpers",
-    value: 2343,
-    Icon: AiOutlineHeart,
+    text: "Clothes stictched",
+    value: 10000,
+    Icon: GiClothes,
     color: "#ffc925",
   },
   {
@@ -50,7 +54,7 @@ const Employment = () => {
       <Header />
       <StaticImage
         height={600}
-        src="../images/school_kids.webp"
+        src="../images/employment.webp"
         className="d-block w-100 "
         alt="First slide"
       />
@@ -59,51 +63,28 @@ const Employment = () => {
       <Container>
         <h2>Coverage</h2>
       </Container>
-      <CauseCard header="Schools & Tuition">
+      <CauseCard header="Employment">
         <Row>
           <Col>
             <StaticImage
               className="float-left mr-5"
               alt="school"
-              src="../../images/school.webp"
+              src="../../images/school1.webp"
             ></StaticImage>
             <div>
               <div>
-                The central and state governments in India promise mandatory and
-                free primary education to all children through public schools.
-                However the physical and teacher quality at these schools in
-                Bangalore are so poor that they act as little more than mid-day
-                meal outlets for most kids. Teachers are underpaid,
-                under-qualified and frequently absent.
+              We have been successfully running two cloth and paper bag producing units in the community which produce thousands of bags every day for the shopkeepers around the locality.
               </div>
               <div className="mb-4">
-                Several private schools have sprung up within the slums to fill
-                this need. In spite of the many challenges they face, these
-                schools are considered a better alternative by parents. However,
-                most have trouble paying the average annual tuition fee of
-                around Rs 8000. Most families have to choose between their kids’
-                education and other pressing needs. Forced drop outs due to
-                financial difficulties are all too common.
+              We have also setup two low cost schools in the area which employ women from the same locality as teachers and supporting staff. Even the support staff at our clinics are hired from the same locality.
               </div>
 
               <div className="mb-4">
-                Swabhimaan helps parents meet this challenge by extending
-                financial aid to the best students. To best utilize our limited
-                resources, we conduct diagnostic tests in english, science, math
-                and civics just before the start of each school year. Close to
-                1000 students turn up for these, of which the top 100 kids are
-                are supported in the form of tuition reimbursement.
+              We provide interest free small loans to the women in the locality to help them setup their own businesses, like tailoring, grocery shops, etc.
               </div>
 
               <div className="mb-4">
-                Swabhimaan also employs a full time teacher at Sunshine
-                school,pay for supplemental exam preparation classes.
-              </div>
-
-              <div className="mb-4">
-                We also pay for teacher training workshops by the 3-2-1
-                Foundation which help them in lesson planning and conducting
-                engaging sessions.
+              That said, we are continuously in need of funds and avenues to extend our help to more of our community members.
               </div>
             </div>
           </Col>

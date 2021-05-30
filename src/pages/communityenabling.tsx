@@ -59,7 +59,7 @@ const CommunityEnabling = () => {
       <Container>
         <h2>Coverage</h2>
       </Container>
-      <CauseCard header="Schools & Tuition">
+      <CauseCard header="Community">
         <Row>
           <Col>
             <StaticImage
@@ -69,41 +69,29 @@ const CommunityEnabling = () => {
             ></StaticImage>
             <div>
               <div>
-                The central and state governments in India promise mandatory and
-                free primary education to all children through public schools.
-                However the physical and teacher quality at these schools in
-                Bangalore are so poor that they act as little more than mid-day
-                meal outlets for most kids. Teachers are underpaid,
-                under-qualified and frequently absent.
+              Every social movement's success depends highly upon active participation from the members of the society. We help philanthropists within the community to do more for their neighbours by providing them the right guidance and resources.
+
               </div>
               <div className="mb-4">
-                Several private schools have sprung up within the slums to fill
-                this need. In spite of the many challenges they face, these
-                schools are considered a better alternative by parents. However,
-                most have trouble paying the average annual tuition fee of
-                around Rs 8000. Most families have to choose between their kids’
-                education and other pressing needs. Forced drop outs due to
-                financial difficulties are all too common.
+              We have some very inspiring members in the Rajendranagara community who have been who have been working relentlessly to support our cause and help their neighbourhood.
+
               </div>
 
               <div className="mb-4">
-                Swabhimaan helps parents meet this challenge by extending
-                financial aid to the best students. To best utilize our limited
-                resources, we conduct diagnostic tests in english, science, math
-                and civics just before the start of each school year. Close to
-                1000 students turn up for these, of which the top 100 kids are
-                are supported in the form of tuition reimbursement.
+              Suleiman is an unstoppable force, who is ready at even ungodly hours to go out and take delivery of excess food, clothes, and plastic materials from any corner of the city. He has been canvassing throughout Bengaluru to educate people on proper usage of their excess stocks and getting us more to work with.
+
               </div>
 
               <div className="mb-4">
-                Swabhimaan also employs a full time teacher at Sunshine
-                school,pay for supplemental exam preparation classes.
+              Ganesh, a disabled himself has been irreplaceable in our efforts to generate more and more employment opportunities for the women and disabled of our community. Today he manages our manufacturing centre for cloth and paper bags which produces 1000s of bags every day. He also doubles up as our marketing chief and works with the stores in surrounding areas to sell these bags.
               </div>
 
               <div className="mb-4">
-                We also pay for teacher training workshops by the 3-2-1
-                Foundation which help them in lesson planning and conducting
-                engaging sessions.
+              We also have philanthropists inspired by Venkat who regularly participate in various fund raising and donations campaigns. The good people atIntuithave been sharing there excess food with us every day, for the last one year. They have enabled us to provide free daily meals to 400 families, every day of the last one and a half year.
+              </div>
+
+              <div className="mb-4">
+              We need more of such people to help us extend our services to more families and communities.
               </div>
             </div>
           </Col>

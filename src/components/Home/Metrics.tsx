@@ -1,31 +1,64 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import {
-  GiOpenBook,
-  AiOutlineSmile,
-  AiOutlineHeart,
-  FaRegHandPaper,
+  GiFamilyHouse,
+  GiOpenedFoodCan,
+  FaUserGraduate,
+  MdTimeline,
+  MdLocalHospital,
+  RiTeamLine,
+  MdLocalGroceryStore,
+  FaRupeeSign,
 } from "react-icons/all";
 
 const metrics = [
-  { text: "Donations Made", value: 1234, Icon: GiOpenBook, color: "#f06626" },
-  {
-    text: "Happy Children",
-    value: 54125,
-    Icon: AiOutlineSmile,
-    color: "#bf271a",
+  { 
+    text: "Community members",
+    value: 100000,
+    Icon: GiFamilyHouse,
+    color: "#f06626"
   },
   {
-    text: "Volunteering Helpers",
-    value: 2343,
-    Icon: AiOutlineHeart,
+    text: "Meals distributed",
+    value: 500000,
+    Icon: GiOpenedFoodCan,
     color: "#ffc925",
   },
   {
     text: "Educated Children",
     value: 32123,
-    Icon: FaRegHandPaper,
+    Icon: FaUserGraduate,
     color: "#57b22f",
+  },
+  {
+    text: "Years Running since",
+    value: 20,
+    Icon: MdTimeline,
+    color: "#bf271a",
+  },
+  { 
+    text: "Volunteers",
+    value: 40,
+    Icon: RiTeamLine,
+    color: "#f06626"
+  },
+  {
+    text: "Patients Treated",
+    value: 20000,
+    Icon: MdLocalHospital,
+    color: "#ffc925",
+  },
+  {
+    text: "Grocery Kits Given",
+    value: 12345,
+    Icon: MdLocalGroceryStore,
+    color: "#57b22f",
+  },
+  {
+    text: "Loans Given for 0% interestes",
+    value: 1000000,
+    Icon: FaRupeeSign,
+    color: "#bf271a",
   },
 ];
 
