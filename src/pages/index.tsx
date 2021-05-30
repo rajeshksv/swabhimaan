@@ -10,6 +10,7 @@ import "../styles/index.scss";
 import Metrics from "../components/Home/Metrics";
 import Team from "../components/Home/Team";
 import Gallery from "../components/Home/Gallery";
+import DonateButton from "../components/Common/Donate";
 
 // const photos = [
 //   {
@@ -99,7 +100,7 @@ const IndexPage = () => {
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              <Button size="lg">Donate</Button>
+              <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -112,7 +113,7 @@ const IndexPage = () => {
             <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Button size="lg">Donate</Button>
+              <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -127,7 +128,7 @@ const IndexPage = () => {
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
-              <Button size="lg">Donate</Button>
+              <DonateButton></DonateButton>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
