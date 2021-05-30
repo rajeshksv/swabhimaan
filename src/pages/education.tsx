@@ -7,10 +7,10 @@ import Impact from "../components/Common/Impact";
 
 import HighlightsTemplate from "../components/Common/HighlightsTemplate";
 import {
-  GiOpenBook,
-  AiOutlineSmile,
-  AiOutlineHeart,
-  FaRegHandPaper,
+  FaBookReader,
+  SiGooglescholar,
+  SiWorkplace,
+  GiMoneyStack,
 } from "react-icons/all";
 import "../styles/index.scss";
 
@@ -18,28 +18,42 @@ const highlights = [
   "Started in 2002",
   "Adopted 4 schools in the community covering over 250 students per year",
   "Running since 20 years, many have graduated and now becoming role models,leaders for younger generation",
-  "Teacher training via TFI 20 teachers teach per year.",
-  "Providing breakfast and lunch for 60 students Tution training for 8th, 9th, 10th class students",
+  "Teacher training via TFI. 20 teachers teach per year",
+  "Providing breakfast and lunch for 60 students",
+  "Tution training for 8th, 9th, 10th class students",
+  "Scholarships for bright students via Entrance tests",
+  "Running computer center for 4 years - Coding, Paint, Word. 12 Desktops. 2 Teachers",
+  "Running Library in partnership with Cosynook. Twice a week 3 hours. Read story books, participate in speaking english. Since 3 years",
+  "Youth empowerment. Soft skills - English, GK interview skills for 40-50 youth per year. ",
+  "40 children per week go to neighboring playground in partnership with “Just for kicks",
+  "Montessori education, Train nursery teachers. 3 years",
+  "Imporve Eng Grammer with Cilrey NGO. 3rd - 4th classes. ",
+  "Movies, Christmas gifts for school kids. Since 5-6 years",
 ];
 
 const metrics = [
-  { text: "Donations Made", value: 1234, Icon: GiOpenBook, color: "#f06626" },
+  { 
+    text: "Students benefited", 
+    value: 1234,
+    Icon: FaBookReader,
+    color: "#f06626" 
+  },
   {
-    text: "Happy Children",
-    value: 54125,
-    Icon: AiOutlineSmile,
+    text: "Scholarships",
+    value: 2000,
+    Icon: SiGooglescholar,
     color: "#bf271a",
   },
   {
-    text: "Volunteering Helpers",
-    value: 2343,
-    Icon: AiOutlineHeart,
+    text: "Students who got jobs",
+    value: 50,
+    Icon: SiWorkplace,
     color: "#ffc925",
   },
   {
-    text: "Educated Children",
-    value: 32123,
-    Icon: FaRegHandPaper,
+    text: "Expenditure per year",
+    value: 1000000,
+    Icon: GiMoneyStack,
     color: "#57b22f",
   },
 ];
