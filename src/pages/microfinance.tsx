@@ -15,11 +15,13 @@ import {
 import "../styles/index.scss";
 
 const highlights = [
-  "Started in 2002",
-  "Adopted 4 schools in the community covering over 250 students per year",
-  "Running since 20 years, many have graduated and now becoming role models,leaders for younger generation",
-  "Teacher training via TFI 20 teachers teach per year.",
-  "Providing breakfast and lunch for 60 students Tution training for 8th, 9th, 10th class students",
+  "Started in 2004",
+  "Very innovative. Builds trust factor, Good will. Will be easy to run other programs",
+  "Zero interest loans for an year",
+  "350+ women members ",
+  "5k-30k loan range",
+  "Earlier, Yearly 10L is given. Now its 20-24L",
+  "Good recovery ratio. 80-85%",
 ];
 
 const metrics = [
