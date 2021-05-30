@@ -1,11 +1,64 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { Card, Row, Col, Container } from "react-bootstrap";
-import CauseCard from "../Common/CauseCard";
+import { Col, Container, Row } from "react-bootstrap";
+import CauseCard from "../components/Common/CauseCard";
+import Header from "../components/Common/Header";
+import Impact from "../components/Common/Impact";
 
-const SchoolsAndTuitions = () => {
+import HighlightsTemplate from "../components/Common/HighlightsTemplate";
+import {
+  GiOpenBook,
+  AiOutlineSmile,
+  AiOutlineHeart,
+  FaRegHandPaper,
+} from "react-icons/all";
+import "../styles/index.scss";
+
+const highlights = [
+  "Started in 2002",
+  "Adopted 4 schools in the community covering over 250 students per year",
+  "Running since 20 years, many have graduated and now becoming role models,leaders for younger generation",
+  "Teacher training via TFI 20 teachers teach per year.",
+  "Providing breakfast and lunch for 60 students Tution training for 8th, 9th, 10th class students",
+];
+
+const metrics = [
+  { text: "Donations Made", value: 1234, Icon: GiOpenBook, color: "#f06626" },
+  {
+    text: "Happy Children",
+    value: 54125,
+    Icon: AiOutlineSmile,
+    color: "#bf271a",
+  },
+  {
+    text: "Volunteering Helpers",
+    value: 2343,
+    Icon: AiOutlineHeart,
+    color: "#ffc925",
+  },
+  {
+    text: "Educated Children",
+    value: 32123,
+    Icon: FaRegHandPaper,
+    color: "#57b22f",
+  },
+];
+
+const MicroFinance = () => {
   return (
-    <>
+    <div>
+      <Header />
+      <StaticImage
+        height={600}
+        src="../images/school_kids.webp"
+        className="d-block w-100 "
+        alt="First slide"
+      />
+      <Impact metrics={metrics} />
+      <HighlightsTemplate content={highlights} />;
+      <Container>
+        <h2>Coverage</h2>
+      </Container>
       <CauseCard header="Schools & Tuition">
         <Row>
           <Col>
@@ -56,8 +109,8 @@ const SchoolsAndTuitions = () => {
           </Col>
         </Row>
       </CauseCard>
-    </>
+    </div>
   );
 };
 
-export default SchoolsAndTuitions;
+export default MicroFinance;

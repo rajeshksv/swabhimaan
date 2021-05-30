@@ -5,6 +5,7 @@ import Highlights from "../components/Education/Highlights";
 import SchoolsAndTuitions from "../components/Education/SchoolsAndTuitions";
 import { Container } from "react-bootstrap";
 import ImpactEducation from "../components/Education/ImpactEducation";
+import "../styles/index.scss";
 
 const Education = () => {
   return (

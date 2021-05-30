@@ -17,31 +17,35 @@ const Header = () => {
           <Nav.Link className="mx-3" href="/">
             Home
           </Nav.Link>
-          <Nav.Link className="mx-3" href="/education">
-            Education
-          </Nav.Link>
-          <Nav.Link className="mx-3" href="/programs">
-            Timelines
-          </Nav.Link>
-          <Nav.Link className="mx-3" href="/programs">
-            Blog
-          </Nav.Link>
-          <NavDropdown
-            className="mx-3"
-            title="Programs"
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item href="/action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="/action/3.2">
-              Another action
+          <NavDropdown className="mx-3" title="Causes" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/education">Education</NavDropdown.Item>
+            <NavDropdown.Item href="/food">Food</NavDropdown.Item>
+            <NavDropdown.Item href="/health">Health</NavDropdown.Item>
+            <NavDropdown.Item href="/employment">Employment</NavDropdown.Item>
+            <NavDropdown.Item href="/womenwelfare">
+              Women Welfare
             </NavDropdown.Item>
-            <NavDropdown.Item href="/action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="/action/3.4">
-              Separated link
+            <NavDropdown.Item href="/communityenabling">
+              Community Enabling
             </NavDropdown.Item>
+            <NavDropdown.Item href="/microfinance">
+              Micro Finance
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/covid">Covid</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className="mx-3" href="/programs">
+          <Nav.Link className="mx-3" href="/timeline">
+            Timeline
+          </Nav.Link>
+          <Nav.Link className="mx-3" href="/gallery">
+            Gallery
+          </Nav.Link>
+          <Nav.Link className="mx-3" href="/awards">
+            Awards
+          </Nav.Link>
+          <Nav.Link className="mx-3" href="/blogs">
+            Blogs
+          </Nav.Link>
+          <Nav.Link className="mx-3" href="/whoweare">
             About Us
           </Nav.Link>
         </Nav>
