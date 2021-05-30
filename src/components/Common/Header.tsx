@@ -34,7 +34,7 @@ const Header = () => {
             <NavDropdown.Item href="/covid">Covid</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link className="mx-3" href="/timeline">
-            Timeline
+            Journey
           </Nav.Link>
           <Nav.Link className="mx-3" href="/gallery">
             Gallery
@@ -47,6 +47,9 @@ const Header = () => {
           </Nav.Link>
           <Nav.Link className="mx-3" href="/whoweare">
             About Us
+          </Nav.Link>
+          <Nav.Link className="mx-3" href="/whoweare">
+            Donate
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
