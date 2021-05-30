@@ -6,9 +6,16 @@ import {
   GiHealthNormal,
   MdWork,
   GiReceiveMoney,
+  GiFamilyHouse,
 } from "react-icons/all";
 
 const programs = [
+  { 
+    Icon: GiFamilyHouse,
+    header: "Community Enabling",
+    content:
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eaque quasi necessitatibus ipsam numquam aut. Vero eum harum accusamus ullam.",
+  },
   {
     Icon: IoSchoolSharp,
     header: "Education",

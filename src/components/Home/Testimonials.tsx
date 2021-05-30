@@ -8,6 +8,25 @@ const Testimonials = () => {
       <br />
       <h3 className="text-center my-5">Testimonials</h3>
       <Carousel>
+      <Carousel.Item>
+          <Row>
+            <Col xs="auto">
+              <StaticImage
+                width={300}
+                height={300}
+                src="../../images/azim.webp"
+                className="d-block w-100 testimonial-img"
+                alt="First slide"
+              />
+            </Col>
+            <Col className="justify-content-center d-flex flex-column">
+              <h3>Azim Premji</h3>
+              <p>
+              There are millions of children today who don't attend school. However, education is the only way to get ahead in this country.
+              </p>
+            </Col>
+          </Row>
+        </Carousel.Item>
         <Carousel.Item>
           <Row>
             <Col xs="auto">
