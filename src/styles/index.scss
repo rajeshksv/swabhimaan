@@ -1,9 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 $theme-colors: (
   "primary": #0074d9,
   "danger": #ff4136
 );
 
 @import "~bootstrap/scss/bootstrap";
+@import "~animate.css/animate.css";
 
 body{
   font-family: 'Jost', sans-serif;
